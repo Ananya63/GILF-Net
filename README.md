@@ -3,9 +3,8 @@
 A dual-backbone (MobileNetV2 + DenseNet201) image classification model that
 fuses features using a novel **Gated Iterative Learnable Lifting Fusion
 (GILF)** module, with Grad-CAM++ interpretability. Originally built for
-white blood cell (WBC) classification on the PBC dataset (8 classes), but
-the architecture is dataset-agnostic — point it at any `ImageFolder`-style
-directory.
+dermatology, hematology, and ophthalmology datasets, but this code is 
+shown on the PBC dataset (8 classes).
 
 ## How the pieces fit together
 
